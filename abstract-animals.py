@@ -74,6 +74,8 @@ class Owner:
         self.city = city    
         self.email = email
         self.number = number
+    def display_info(self):
+        print(f"Name: {self.name}, city: {self.city}, Email: {self.email}, Number: {self.number}")
     
 # NEW CLASS STAFF
 class Staff:
@@ -184,6 +186,4 @@ staff1.staff_speak()
 staff1.weight_check(dog1)
 staff2.billing(1500, o1)
 staff2.receipt(1500)
-
-
 
